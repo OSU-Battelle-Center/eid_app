@@ -2,15 +2,14 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 
-export default class MapComp extends Component {
+class MapComp extends Component {
   render() {
   return (
-    <div>
-    <h2>Welcome to the Map!</h2>
-    <p>
-      <Link to="/contact">Click Here</Link> to contact us!
-    </p>
+    <div className="MapComp">
+      <h2>Welcome to the Map!</h2>
     </div>
-  )
+  );
   }
 }
+
+export default MapComp;
